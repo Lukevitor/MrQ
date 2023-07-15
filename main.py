@@ -54,7 +54,7 @@ try:
             print("Erro ao requisitar a API")
 
 except FileNotFoundError:
-    print("Não foi localizdo o arquivo 'acc.json'!\nO arquivo será criado")
+    print("Não foi localizdo o arquivo 'acc.csv'!\nO arquivo será criado")
     with open(
         osfile + "/acc.csv", 'w'
         ) as arquivo_csv:
